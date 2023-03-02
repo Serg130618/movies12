@@ -10,7 +10,7 @@ public class MoviesTest {
         man.add("фильм 2");
         man.add("фильм 3");
 
-        String[] expected = { "фильм 1", "фильм 2", "фильм 3"};
+        String[] expected = {"фильм 1", "фильм 2", "фильм 3"};
         String[] actual = man.findAll();
 
         Assertions.assertArrayEquals(expected, actual);
@@ -24,7 +24,7 @@ public class MoviesTest {
         man.add("фильм 2");
         man.add("фильм 3");
 
-        String[] expected = { "фильм 3", "фильм 2", "фильм 1"};
+        String[] expected = {"фильм 3", "фильм 2", "фильм 1"};
         String[] actual = man.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
@@ -47,7 +47,7 @@ public class MoviesTest {
         man.add("фильм 11");
         man.add("фильм 12");
 
-        String[] expected = { "фильм 12", "фильм 11", "фильм 10", "фильм 9","фильм 8","фильм 7","фильм 6","фильм 5", "фильм 4","фильм 3"};
+        String[] expected = {"фильм 12", "фильм 11", "фильм 10", "фильм 9", "фильм 8", "фильм 7", "фильм 6", "фильм 5", "фильм 4", "фильм 3"};
         String[] actual = man.findLast();
 
         Assertions.assertArrayEquals(expected, actual);
